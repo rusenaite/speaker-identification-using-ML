@@ -3,6 +3,10 @@
 ## Tikslas
 Sukurti sistemą, kuri geba atpažinti kalbėtoją iš trumpų garso įrašų, taikant mašininio mokymosi metodus.
 
+## Sistemos schema
+
+<img src="diagram.png" alt="Sistemos schema" width="400" />
+
 ## Duomenys
 - Naudotas kelių kalbėtojų garso įrašų rinkinys (10 kalbėtojų, po kelis įrašus kiekvienam).
 - Įrašai trumpi (1–3 sekundės), WAV formatu.
@@ -45,10 +49,6 @@ Buvo pridėtas white noise (noise_level = 0.05) prie testavimo požymių.
 | Su triukšmu | 100.00% |
 
 Pastaba: triukšmas buvo pridėtas prie išskaičiuotų požymių. Realistiškesniam testavimui rekomenduojama triukšmą taikyti tiesiai WAV įrašams prieš požymių skaičiavimą.
-
-## Sistemos schema
-
-![Sistemos schema](diagram.png)
 
 ## Išvados
 - Modelis sėkmingai atpažino visus kalbėtojus, net esant labai trumpiems įrašams.
